@@ -1,31 +1,38 @@
 import PropTypes from 'prop-types';
-import React from 'react';
-import './SolarSystem.css';
+import { Component } from 'react';
+import '../css/PlanetCard.css';
 
-class PlanetCard extends React.Component {
+/**
+* @extends {React.Component<{planetName:string, planetImage:string}>}
+*/
+class PlanetCard extends Component {
   render() {
     const { planetName, planetImage } = this.props;
     return (
-      <div data-testid="planet-card">
-        <div className="imgPlanets">
-          <img
-            src={ planetImage }
-            alt={ `Planeta ${planetName}` }
-            className={ planetName }
-          />
+      <div className="planet-card">
+
+        <div className="planet-image-tag">
+          <img src={ planetImage } alt={ `Planeta ${planetName}` } />
         </div>
-        <div className="namePlanets">
-          <p data-testid="planet-name" className="planetNames">
-            { planetName }
-          </p>
+
+        <div className="planet-name-tag">
+          <p>{ planetName }</p>
         </div>
+
       </div>
+
     );
   }
 }
 
-PlanetCard.propTypes = {
-  planetName: PropTypes.string.isRequired,
-  planetImage: PropTypes.string.isRequired,
+PlanetCard.defaultProps = {
+  planetName: 'Terra',
+  planetImage: 'https://images.unsplash.com/photo-1581291510185-9d4f01aae8b8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVycmElMjBwbGFuZXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80',
 };
+
+PlanetCard.propTypes = {
+  planetName: PropTypes.string,
+  planetImage: PropTypes.string,
+};
+
 export default PlanetCard;

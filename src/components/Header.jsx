@@ -1,17 +1,9 @@
-import React from 'react';
-import './Header.css';
+import '../css/Header.css';
 
-class Header extends React.Component {
-  render() {
-    return (
-      <header>
-        <div className="retangle">
-          <h1>Sistema Solar</h1>
-          <div className="elipse" />
-        </div>
-      </header>
-    );
-  }
+function Header() {
+  return (
+    <header className="header" />
+  );
 }
 
 export default Header;

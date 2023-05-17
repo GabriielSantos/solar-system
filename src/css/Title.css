@@ -1,0 +1,13 @@
+.title {
+  display: flex;
+  font-family: Epilogue , sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 150%;
+  margin-top: 70px;
+  padding: 20px 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
