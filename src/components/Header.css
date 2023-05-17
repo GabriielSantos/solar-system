@@ -1,0 +1,35 @@
+header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.retangle {
+  border: 1px solid white;
+  height: 242.72px;
+  margin: auto;
+  margin-top: 41.94px;
+  transform: matrix(1, 0, 0.01, 1, 0, 0);
+  width: 425.69px;
+}
+
+.elipse {
+  background: #fff;
+  height: 307.45px;
+  left: 745.73px;
+  position: absolute;
+  top: 35.92px;
+  transform: matrix(0.6, 0.8, -0.84, 0.54, 0, 0);
+  width: 120.07px;
+}
+
+
+header h1 {
+  color: white;
+  height: 50.63px;
+  left: 412.69px;
+  position: absolute;
+  top: 142.98px;
+  width: 451.85px;
+}
+

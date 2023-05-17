@@ -1,12 +1,13 @@
 import React from 'react';
 import missions from '../data/missions';
 import MissionCard from './MissionCard';
+import './Missions.css';
 import Title from './Title';
 
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="containerMissions">
         <Title headline="Missões" />
         <div className="missions">
           {

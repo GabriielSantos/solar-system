@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+.containerMissions {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  height: 2276px;
+  margin: auto;
+  margin-top: 200px;
+  opacity: 0.1;
+  width: 60%;
+}
+
+.missions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.containerCard {
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid white;
+  border-radius: 17px;
+  box-sizing: border-box;
+  height: 250px;
+  mix-blend-mode: hard-light;
+  width: 600px;
+}
+
