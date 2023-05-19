@@ -9,23 +9,23 @@
 }
 
 .planet-card:nth-child( 1 ) .planet-name-tag {
-  left: 6.9%;
+  left: 5.9%;
 }
 
 .planet-card:nth-child( 2 ) .planet-name-tag {
-  left: 15.5%;
+  left: 14.2%;
 }
 
 .planet-card:nth-child( 3 ) .planet-name-tag {
-  left: 25%;
+  left: 23.5%;
 }
 
 .planet-card:nth-child( 4 ) .planet-name-tag {
-  left: 33.5%;
+  left: 31.8%;
 }
 
 .planet-card:nth-child( 5 ) .planet-name-tag {
-  left: 45.8%;
+  left: 44.5%;
 }
 
 .planet-card:nth-child( 6 ) .planet-name-tag {
