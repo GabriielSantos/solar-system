@@ -1,10 +1,7 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Neste projeto, tive meu primeiro contato com essa ferramenta tão importante e utilizada no mercado Front-End, o React.
+
+Neste projeto, foram implementados os Componentes de forma organizada e reutilizável.
+
+O CSS foi replicado a partir do Figma disponibilizado no projeto.
+
+Acesse o Projeto: https://gabriielsantos.github.io/solar-system/
