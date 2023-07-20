@@ -1,6 +1,6 @@
 # Solar System
 
-# Contexto
+## Contexto
 
 Projeto realizado com React, onde foi aplicado os conceitos de componentes na aplicação.
 
