@@ -2,7 +2,7 @@
 
 ## Contexto
 
-Projeto realizado com React, onde foi aplicado os conceitos de componentes na aplicação.
+Projeto realizado com React.js, onde foi aplicado os conceitos de componentes na aplicação.
 
 ## Técnologias usadas
 
