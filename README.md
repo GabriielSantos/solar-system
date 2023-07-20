@@ -7,7 +7,7 @@ Projeto realizado com React, onde foi aplicado os conceitos de componentes na ap
 ## Técnologias usadas
 
 Front-end:
-> Desenvolvido usando: React.js, CSS3 (Replicação exata ao Figma), HTML5.
+> Desenvolvido usando: React.js, Javascript, CSS3 (Replicação exata ao Figma), HTML5.
 
 
 ## Instalando Dependências
